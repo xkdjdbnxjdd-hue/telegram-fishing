@@ -30,6 +30,10 @@ CLI программа, имитирующая фишинговую атаку �
 git clone https://github.com/xkdjdbnxjdd-hue/telegram-fishing
 cd telegram-fishing
 
+# Настройте окружение (Linux)
+python3 -m venv env
+source ev/bin/activate
+
 # Установите зависимости
 pip install -r requirements.txt
 
@@ -38,6 +42,7 @@ unzip detail.zip
 
 # Настройте конфигурацию 
 # Замените значения в gen.py и server.py
+API_HASH и API_ID
 
 # Запустите приложение
 python sci.py -u <host> -p <port>
