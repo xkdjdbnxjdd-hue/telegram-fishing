@@ -34,7 +34,7 @@ cd telegram-fishing
 pip install -r requirements.txt
 
 # Распакуйте медиа данные
-unzip data.zip
+unzip detail.zip
 
 # Настройте конфигурацию 
 # Замените значения в gen.py и server.py
